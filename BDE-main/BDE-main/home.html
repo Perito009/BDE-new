@@ -29,7 +29,7 @@
   <title>Le site web du DBE de EPSI WIS</title>
     <script type="application/ld+json">
           {
-            "@context": "http://mydil.tech/BDE/home.html",
+            "@context": "https://schema.org",
             "@type": "Course",
             "name": "Présentation du BDE de EPSI WIS de Lyon",
             "description": "Présentation du BDE, calendrier, Nos évènements, le MyDil,la Galerie photo.",
@@ -53,9 +53,10 @@
 					</figure>
           <div class="wrap">
             <div class="search">
-              <script async src="https://cse.google.com/cse.js?cx=e53faa718332445d0">
-              </script>
-              <div class="gcse-search"></div>
+              <input type="text" class="searchTerm" placeholder="Vous cherchez autre chose..." required/>
+              <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+              </button>
             </div>
           </div>
 				</div>
