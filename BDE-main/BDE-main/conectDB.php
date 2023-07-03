@@ -1,6 +1,6 @@
 <?php
   $host = 'localhost';
-  $dbname = 'db-bde-epsi-wis';
+  $dbname = 'db_BDE_epsi_wis';
   $username = 'root';
   $password = '';
     
